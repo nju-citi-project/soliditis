@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "msgAcco",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getMsg",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "msgs",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "msgType",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "info",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"msg-box.sol": "MsgBox"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"msg-box.sol": {
+			"keccak256": "0xd49f5f27d6438b824c3a913ea30fb2a974e109403d35e2a6e9af8a1802afa8b4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0bc90de163fe1912c0feed99442f51da7ee531047ce1506cd25fd2942cc12617",
+				"dweb:/ipfs/QmQSEc8kyKrAoYNfBt5YWYEe2Q9XuHqbaXHjhTcFnR3QY8"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "contractAddr",
+						"type": "address"
+					}
+				],
+				"name": "addAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "getMsgBox",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "msgAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"msg-addr-col.sol": "MsgAddrCollection"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"msg-addr-col.sol": {
+			"keccak256": "0xa8e0b5cba1bc27008c03e0df5c849aed6e1addc6ccc4d895a53c2798772b9c30",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6f4308cc05d3b7a546d931bc29966178ad074c7bf4e325c66a7936b2015a5ae",
+				"dweb:/ipfs/QmSMgU1Gj1MMVJanKQXSUpTnevektSgEbCLPakyfwtMXXF"
+			]
+		}
+	},
+	"version": 1
+}
