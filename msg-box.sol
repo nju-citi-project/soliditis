@@ -3,7 +3,6 @@ pragma solidity ^0.8.4;
 
 contract MsgBox {
     address immutable private msgAccount;
-    address immutable private creater;
 
     struct Msg {
         uint256 msgType; // 1是用户请求消息,2是用户发送attr消息,3是用户收到金融机构的消息
@@ -13,7 +12,6 @@ contract MsgBox {
     Msg[] public msgs;
 
     constructor(address msgAcco) {
-        creater = msg.sender;
         msgAccount = msgAcco;
     }
 
