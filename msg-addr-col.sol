@@ -3,7 +3,7 @@ pragma solidity ^0.8.4;
 
 contract MsgAddrCollection {
     mapping (address => address) private accountMsgBox;
-    address private owner;
+    address immutable private owner;
      function getMsgBox(address account) public view
             returns (address msgAddr) {
                 require(msg.sender == owner, "you are not the owner");
